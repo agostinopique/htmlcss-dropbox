@@ -15,3 +15,12 @@ ul {
 a{
   text-decoration: none;
 }
+
+.button {
+  background
+  padding: 10px;
+}
+
+.dark {
+  background-color: blue;
+}
