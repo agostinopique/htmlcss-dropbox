@@ -35,7 +35,7 @@
 .container {
   width: 80%;
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .clearfix::after{
@@ -53,7 +53,7 @@
 }
 
 .col3 {
-  width: calc(100% / 3);
+  width: calc((100% - 90px) / 3);
 }
 
 

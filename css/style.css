@@ -44,6 +44,7 @@ header li{
   padding: 50px;
   height: 500px;
   position: relative;
+  margin-bottom: 200px;
 }
 
 .jumbotron span {
@@ -56,7 +57,7 @@ header li{
 }
 
 .jumbo-text > div {
-  width: 40%;
+  width: 30%;
 }
 h1 {
   font-size: 3rem;
@@ -70,15 +71,50 @@ span.button {
 
 .jumbo-img {
   position: absolute;
-  right: 250px;
-  top: 210px;
+  right: 460px;
+  top: 160px;
 }
 .jumbo-img img{
-  width: 600px;
+  width: 700px;
 }
 /* / JUMBOTRON */
 
+/* MAIN */
 
+.col-container h2{
+  margin-bottom: 30px;
+}
+.radio {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #0061FF;
+  border-radius: 50%;
+}
+
+.radio.selected {
+  border: 5px solid #0061FF;
+}
+
+.radio-button {
+  margin-right: 10px;
+}
+
+.col3 {
+  margin: 10px;
+}
+
+.col-title {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #D3D3D6;
+}
+
+/* COLUMN SECTION */
+
+
+/* /COLUMN SECTION */
+/* /MAIN */
 
 
 
