@@ -17,8 +17,9 @@ a{
 }
 
 .button {
-  background
+  background-color: #0061FF;
   padding: 10px;
+  color: white;
 }
 
 .dark {
