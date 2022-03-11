@@ -4,8 +4,7 @@
 .debug {
   background-color: rgba(255, 0, 0, 0.5);
   width: 100%;
-  border: 1px solid red;
-  /* height: 100px; */
+  border: 1px solid blue;
 }
 
 .h500 {
@@ -16,6 +15,13 @@
   min-height: 300px;
 }
 
+.h200{
+  min-height: 200px;
+}
+
+.h150{
+  min-height: 150px
+}
 .h100 {
   min-height: 100px;
 }
@@ -23,6 +29,7 @@
 .w50{
   width: 50%;
 }
+
 /* / DEBUG */
 
 .container {
@@ -43,4 +50,14 @@
 
 .float-right {
   float: right;
+}
+
+.col3 {
+  width: calc(100% / 3);
+}
+
+
+.w90{
+  width: 90%;
+  margin: 0 auto;
 }
