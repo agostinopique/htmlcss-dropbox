@@ -87,6 +87,7 @@ span.button a{
 
 .jumbo-text {
   padding-right: 50px;
+  width: 40%;
 }
 .jumbo-img img{
   width: 100%;
@@ -141,7 +142,9 @@ span.button a{
 
 .col-section .col-text {
   height: 1000px;
+  /* min-height: 1000px; */
 }
+
 .col-text span{
   display: block;
 }
@@ -287,10 +290,94 @@ span.col-hr {
 /* /DROPBOX BUSINESS */
 
 /* SPONSOR */
+.filter {
+  filter: invert(1);
+}
 
+.logo-sqr {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+}
 
+.logo-sqr img {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* SOLUZIONE ALTERNATIVA PER I QUADRATI RESPONSIVE */
+/* 
+.logo-sqr::after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+} */
+
+#designit {
+  background-color: #A2D39B;
+}
+
+#arizona-uni {
+  background-color: #61082C;
+}
+
+#florida-uni {
+  background-color: #1E93CE;
+}
+
+#topps {
+  background-color: #F91C1D;
+}
+
+#bicycle-rel {
+  background-color: #D5011F;
+}
+
+#hearst-corp {
+  background-color: #B4D1E7;
+}
+
+#lonely-planet {
+  background-color: #0E2481;
+}
+
+#clear-chnl {
+  background-color: #FED830;
+}
+
+.sponsor-txt {
+  background-color: #F5F5F5;
+  padding: 20px;
+  height: 30vw;
+  overflow: auto;
+}
+
+.sponsor-txt img {
+  width: 30%;
+}
 /* /SPONSOR */
 
+.drop-azienda {
+  background-color: #B4CFE7;
+  height: 200px;
+  padding: 60px;
+}
+
+.drop-azienda a {
+
+}
+
+
+.sponsor-txt hr{
+  width: 10%;
+  color: #D0D0D3;
+  margin: 40px 0;
+}
 /* /MAIN */
 
 

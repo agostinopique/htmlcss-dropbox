@@ -62,10 +62,15 @@
   margin: 0 auto;
 }
 
-.w40 {
-  width: 40%;
-}
 
 .w60 {
   width: 60%;
-}s
+}
+
+.logo-sctn{
+  width: 30vw;
+}
+
+.sponsor-txt {
+  width: calc(100% - 60vw);
+}
