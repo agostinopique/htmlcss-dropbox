@@ -119,7 +119,7 @@ span.button a{
 }
 
 .col-section {
-  height: 950px;
+  height: 1100px;
 }
 
 .col-title {
@@ -129,16 +129,34 @@ span.button a{
 }
 
 .col-text {
-  padding: 25px 0 0 20px;
+  padding: 25px 5px 0 20px;
   border: 1px solid #D3D3D6;
 }
 
+.col-section .col-text {
+  min-height: 1000px;
+}
 .col-text span{
   display: block;
 }
 
 span.functions {
   margin-bottom: 50px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.period {
+  color: #788794;
+}
+.utente {
+  margin-top: 50px;
+}
+.utente, .memory {
+  margin-bottom: 30px;
 }
 
 .col-buy-link {
@@ -154,10 +172,13 @@ span.col-hr {
   margin-bottom: 50px;
 }
 
-.col-text li{
-  margin: 10px 0;
+.list-section, .list-section span{
+  margin-top: 30px;
 }
 
+.list-section span i {
+  color: #0054FF;
+}
 
 
 /* /COLUMN SECTION */
