@@ -175,7 +175,7 @@ span.button a{
 
 
 .col-buy-link {
-  margin: 30px 0;
+  margin: 30px 0 40px 0;
 }
 
 .col-text a.button {
@@ -184,8 +184,9 @@ span.button a{
   padding: 8px 30px;
 }
 
-span.col-hr {
-  margin-bottom: 50px;
+hr.col-hr {
+  width: 20%;
+  margin-bottom: 60px;
 }
 
 .list-section li i{
@@ -240,7 +241,7 @@ span.col-hr {
   font-size: 0.9rem;
 }
 
-.partner-text .white-btn {
+.white-btn {
   background-color: white;
   color: black;
   padding: 8px 15px;
@@ -369,7 +370,7 @@ span.col-hr {
 }
 
 .drop-azienda a {
-
+  border: none;
 }
 
 
@@ -380,25 +381,48 @@ span.col-hr {
 }
 /* /MAIN */
 
+/* FOOTER */
+footer {
+  background-color: black;
+}
+.list {
+  width: calc(100% / 5);
+  color: white;
+}
 
+.list h4 {
+  margin: 50px 0 20px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.list li{
+  margin: 10px 0;
+}
 
 .foot-bottom {
   width: 10%;
   height: 50px;
   margin: 30px 0 0 60px;
+  color: white;
 }
+
+.foot-bottom hr {
+  width: 70%;
+  color: #D0D0D3;
+  margin: 20px 0;
+}
+/* /FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
