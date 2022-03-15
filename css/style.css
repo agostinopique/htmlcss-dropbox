@@ -415,11 +415,18 @@ hr.col-hr {
 .logo-sqr:hover {
   border: 0.7vw solid rgba(255, 255, 255, 0.5);
 }
+
+.sponsor-txt hr{
+  width: 10%;
+  color: #D0D0D3;
+  margin: 40px 0;
+}
+
 /* /SPONSOR */
 
 .drop-azienda {
   background-color: #B4CFE7;
-  height: 200px;
+  height: 250px;
   padding: 60px;
 }
 
@@ -427,11 +434,13 @@ hr.col-hr {
   border: none;
 }
 
+.sub-sponsor-txt {
+  width: 60%;
+}
 
-.sponsor-txt hr{
-  width: 10%;
-  color: #D0D0D3;
-  margin: 40px 0;
+.sub-sponsor-btn {
+  width: 40%;
+  text-align: center;
 }
 
 /* FAQ */
@@ -500,30 +509,17 @@ footer {
 }
 
 .foot-bottom {
-  width: 10%;
   height: 50px;
-  margin: 30px 0 0 60px;
+  margin-top: 30px;
   color: white;
+  width: 80%;
+  margin: 30px auto 0;
+  padding-bottom: 3 0px;
 }
 
 .foot-bottom hr {
-  width: 70%;
+  width: 10%;
   color: #D0D0D3;
   margin: 20px 0;
 }
 /* /FOOTER */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
