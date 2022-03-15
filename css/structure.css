@@ -1,37 +1,4 @@
 
-/* DEBUG */
-
-/* .debug {
-  background-color: rgba(255, 0, 0, 0.5);
-  width: 100%;
-  border: 1px solid blue;
-}
-
-.h500 {
-  min-height: 500px;
-}
-
-.h300 {
-  min-height: 300px;
-}
-
-.h200{
-  min-height: 200px;
-}
-
-.h150{
-  min-height: 150px
-}
-.h100 {
-  min-height: 100px;
-}
-
-.w50{
-  width: 50%;
-} */
-
-/* / DEBUG */
-
 .container {
   width: 80%;
   max-width: 1500px;
@@ -52,19 +19,20 @@
   float: right;
 }
 
-.col3 {
-  width: calc((100% - 90px) / 3);
+.w40{
+  width: 40%;
 }
 
-
-.w90{
-  width: 90%;
-  margin: 0 auto;
+.w50{
+  width: 50%;
 }
-
 
 .w60 {
   width: 60%;
+}
+
+.w70 {
+  width: 70%;
 }
 
 .logo-sctn{
@@ -74,3 +42,32 @@
 .sponsor-txt {
   width: calc(100% - 60vw);
 }
+  /* DEBUG */
+  
+  /* .debug {
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100%;
+    border: 1px solid blue;
+  }
+  
+  .h500 {
+    min-height: 500px;
+  }
+  
+  .h300 {
+    min-height: 300px;
+  }
+  
+  .h200{
+    min-height: 200px;
+  }
+  
+  .h150{
+    min-height: 150px
+  }
+  .h100 {
+    min-height: 100px;
+  }
+  
+  
+  /* / DEBUG */

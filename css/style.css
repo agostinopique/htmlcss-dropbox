@@ -34,7 +34,6 @@ header li:hover{
   padding-right: 20px;
 }
 
-
 .nav-left{
   text-align: left;
 }
@@ -84,8 +83,6 @@ header li:hover{
 .jumbotron {
   background-color: #B4D1E7;
   margin-top: 60px;
-  /* padding: 50px;  */
-  height: 600px;
   margin-bottom: 200px;
 }
 
@@ -103,12 +100,22 @@ header li:hover{
 }
 
 .jumbo-section {
-  height: 300px;
   max-width: 1500px;
 }
 
-#jumbo-title {
+.jumbo-text {
+  padding-right: 50px;
+}
+
+.jumbo-img {
+  min-width: 550px;
+}
+.jumbo-img img{
   width: 100%;
+}
+
+#jumbo-title {
+  width: 80%;
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -120,14 +127,6 @@ span.button {
 
 span.button a{
   text-decoration: none;
-}
-
-.jumbo-text {
-  padding-right: 50px;
-  width: 40%;
-}
-.jumbo-img img{
-  width: 100%;
 }
   
 /* / JUMBOTRON */
@@ -158,11 +157,11 @@ span.button a{
 /* COLUMN SECTION */
 
 .col-section .col {
-  width: calc((100% - 20px)  / 3);
+  width: calc((100% - 6vw)  / 3);
 }
 
 .center-col {
-  margin: 0 10px;
+  margin: 0 3vw;
 }
 
 .col-section {
@@ -265,11 +264,7 @@ hr.col-hr {
 /* /COLUMN SECTION */
 
 /* PARTNER SECTION */
-.partner-section .partner-img {
-  width: 50%;
-} 
 .partner-section .partner-text {
-  width: 40%;
   padding: 40px 80px;
 }
 
@@ -347,10 +342,9 @@ main .partner-section {
 }
 
 .logo-sqr img {
-  position: absolute;
   background-position: center;
   background-size: cover;
-  width: 70%;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -433,12 +427,7 @@ main .partner-section {
   border: none;
 }
 
-.drop-azienda .sub-sponsor-txt {
-  width: 60%;
-}
-
 .drop-azienda .sub-sponsor-btn {
-  width: 40%;
   text-align: center;
 }
 
@@ -508,10 +497,18 @@ footer .list {
   margin: 10px 0;
 }
 
+.list li a{
+  color: white;
+}
+.list li a:hover {
+  text-decoration: underline;
+}
+
+
 .foot-bottom {
   height: 50px;
   margin-top: 30px;
-  color: white;
+  color: #8b8b8b;
   width: 80%;
   margin: 30px auto 0;
   padding-bottom: 3 0px;
