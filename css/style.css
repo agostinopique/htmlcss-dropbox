@@ -265,15 +265,18 @@ hr.col-hr {
 /* /COLUMN SECTION */
 
 /* PARTNER SECTION */
-.col2 img{
+.partner-section .partner-img {
+  width: 50%;
+} 
+.partner-section .partner-text {
+  width: 40%;
+  padding: 40px 80px;
+}
+
+.partner-img img{
   background-size: cover;
   background-position: center;
   width: 100%;
-}
-
-.partner-text {
-  width: 40%;
-  padding: 40px 80px;
 }
 
 .partner-text h3 {
@@ -286,14 +289,7 @@ hr.col-hr {
   font-size: 0.9rem;
 }
 
-.white-btn {
-  background-color: white;
-  color: black;
-  padding: 8px 15px;
-  border: 1px solid black;
-}
-
-.partner-section {
+main .partner-section {
   margin-bottom: 50px;
 }
 /* /PARTNER SECTION */
@@ -309,7 +305,7 @@ hr.col-hr {
   margin-bottom: 15px;
 }
 
-.drop-paper  {
+.business-col .drop-paper  {
   text-decoration: underline;
   color: black;
 }
@@ -323,6 +319,9 @@ hr.col-hr {
   margin-bottom: 130px;
 }
 
+/* /DROPBOX BUSINESS */
+
+/* DROPBOX-TEAMS */
 .drop-team h2 {
   font-size: 2rem;
   margin-bottom: 30px;
@@ -333,14 +332,14 @@ hr.col-hr {
   color: #0050FF;
   font-size: 13px;
 }
-/* /DROPBOX BUSINESS */
+/* /DROPBOX-TEAMS */
 
 /* SPONSOR */
-.filter {
+.logo-sqr .filter {
   filter: invert(1);
 }
 
-.logo-sqr {
+.logo-sctn .logo-sqr {
   position: relative;
   width: 15vw;
   height: 15vw;
@@ -434,11 +433,11 @@ hr.col-hr {
   border: none;
 }
 
-.sub-sponsor-txt {
+.drop-azienda .sub-sponsor-txt {
   width: 60%;
 }
 
-.sub-sponsor-btn {
+.drop-azienda .sub-sponsor-btn {
   width: 40%;
   text-align: center;
 }
@@ -450,7 +449,7 @@ hr.col-hr {
   margin: 50px auto; 
 }
 
-.faq-line {
+.faq .faq-line {
   padding: 30px 0;
   border-bottom: 1px solid #D0D0D3;
   /* position: relative;  */
@@ -493,9 +492,10 @@ hr.col-hr {
 /* FOOTER */
 footer {
   background-color: black;
+  height: 350px;
 }
 
-.list {
+footer .list {
   width: calc(100% / 5);
   color: white;
 }

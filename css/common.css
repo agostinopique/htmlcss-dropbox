@@ -23,6 +23,13 @@ a{
   color: white;
 }
 
+.white-btn {
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border: 1px solid black;
+}
+
 .button:hover{
   opacity: 0.9;
 }
